@@ -1,4 +1,4 @@
-$inProcessPath = "E:\Random Videos\In Process\$env:username\"
+$inProcessPath = "E:\Random Videos\In Process\"
 
 $oldVideos = Get-ChildItem -Include @("*.nmf") -Path $inProcessPath -Recurse;
 
